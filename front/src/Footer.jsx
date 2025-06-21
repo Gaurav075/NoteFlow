@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaFeatherAlt, FaGithub, FaTwitter, FaLinkedinIn } from 'react-icons/fa'
+import { FaFeatherAlt, FaGithub, FaTwitter, FaLinkedinIn, FaYoutube } from 'react-icons/fa'
 import { MdEmail, MdSupportAgent } from 'react-icons/md'
 import logo from './assets/LOGO.png'
 
@@ -136,19 +136,20 @@ function Footer() {
                   <FaLinkedinIn className="h-5 w-5" />
                 </a>
                 <a 
-                  href="officialgauravgupta3@gmail.com" 
+                  href="https://youtube.com/@gauravgupta2850?feature=shared" 
+                  target='_blank'
                   className="p-2.5 rounded-full bg-primary-yello/10 text-primary-yello hover:bg-primary-yello/20 transition-all transform hover:-translate-y-1 hover:shadow-md hover:shadow-primary-yello/20"
                   aria-label="Email"
                 >
-                  <MdEmail className="h-5 w-5" />
+                  <FaYoutube className="h-5 w-5" />
                 </a>
               </div>
               <div className="mt-4">
-                <button className="bg-gradient-to-r from-primary-yello to-amber-600 py-2.5 px-5 rounded-lg text-white text-sm font-medium hover:shadow-lg hover:shadow-primary-yello/30 transition-all transform hover:-translate-y-1 flex items-center gap-2 group relative overflow-hidden">
+                {/* <button className="bg-gradient-to-r from-primary-yello to-amber-600 py-2.5 px-5 rounded-lg text-white text-sm font-medium hover:shadow-lg hover:shadow-primary-yello/30 transition-all transform hover:-translate-y-1 flex items-center gap-2 group relative overflow-hidden">
                   <span className="absolute inset-0 bg-gradient-to-r from-amber-500 to-primary-yello opacity-0 group-hover:opacity-100 transition-opacity duration-300"></span>
                   <MdSupportAgent className="h-5 w-5 relative z-10" />
                   <span className="relative z-10">Contact Support</span>
-                </button>
+                </button> */}
               </div>
             </div>
           </div>

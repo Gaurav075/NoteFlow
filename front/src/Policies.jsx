@@ -267,12 +267,12 @@ function Policies() {
                   <p className="text-white text-sm">If you have any questions about these policies or our service, please contact us at:</p>
                   <div className="bg-black/20 rounded-lg px-4 py-3 mt-3 border border-primary-yello/20 inline-block relative overflow-hidden group-hover:border-primary-yello/30 transition-all duration-300">
                     <div className="absolute inset-0 bg-gradient-to-r from-primary-yello/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-                    <p className="text-primary-yello font-semibold relative">support@notesapp.com</p>
+                    <p className="text-primary-yello font-semibold relative">officialgauravgupta3@gmail.com</p>
                   </div>
                   
                   <div className="flex items-center gap-2 mt-6">
                     <div className="w-1.5 h-1.5 rounded-full bg-primary-yello animate-pulse"></div>
-                    <p className="text-white text-xs">Last updated: April 13, 2023</p>
+                    <p className="text-white text-xs">Last updated: June 20, 2025</p>
                   </div>
                 </div>
               </div>
