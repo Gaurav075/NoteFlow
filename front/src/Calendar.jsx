@@ -22,7 +22,7 @@ const Calendar = () => {
   useEffect(() => {
     const getMynote = async () => {
       try {
-        const mynotes = await axios.get("https://ideal-succotash-56jp5qw76gx24jq5-3000.app.github.dev/getNotes", {
+        const mynotes = await axios.get("https://noteflow-8hbr.onrender.com/getNotes", {
           headers: {
             Authorization: `Bearer ${token}`
           }

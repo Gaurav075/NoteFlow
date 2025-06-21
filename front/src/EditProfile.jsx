@@ -73,7 +73,7 @@ function EditProfile() {
         }
 
         try {
-            const changePassword = await axios.post("https://ideal-succotash-56jp5qw76gx24jq5-3000.app.github.dev/changePasswordwithToken",{
+            const changePassword = await axios.post("https://noteflow-8hbr.onrender.com/changePasswordwithToken",{
                 email:dataUser.email,
                 Currentpassword:passwordSetting.currentOne,
                 newOne:passwordSetting.newOne,
@@ -144,7 +144,7 @@ function EditProfile() {
             // Only make the API call if there are fields to update
             if (Object.keys(updatedFields).length > 0) {
                 const UpdateProfile = await axios.put(
-                    `https://ideal-succotash-56jp5qw76gx24jq5-3000.app.github.dev/UpdateProfile/${dataUser.id}`,
+                    `https://noteflow-8hbr.onrender.com/UpdateProfile/${dataUser.id}`,
                     updatedFields,
                     {
                         headers: {

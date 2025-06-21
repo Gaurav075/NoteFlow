@@ -27,7 +27,7 @@ function ResetPassword() {
     setIsLoading(true)
 
     try {
-      const checkEmail = await axios.post("https://ideal-succotash-56jp5qw76gx24jq5-3000.app.github.dev/verifyEmail", { email: email })
+      const checkEmail = await axios.post("https://noteflow-8hbr.onrender.com/verifyEmail", { email: email })
 
       if(checkEmail) {
         setNotification(prev => ({ ...prev, show: true, message: `Verification code sent to ${email}` }))

@@ -96,7 +96,7 @@ function OTPCode() {
     try {
 
 
-      const verfiedOtp = await axios.post("https://ideal-succotash-56jp5qw76gx24jq5-3000.app.github.dev/verifyOtp",{otp:otp,email:email})
+      const verfiedOtp = await axios.post("https://noteflow-8hbr.onrender.com/verifyOtp",{otp:otp,email:email})
 setNotification(prev=>({...prev,show:true,message:verfiedOtp.data}))
 
 setTimeout(()=>{setNotification(prev=>({...prev,isClosing:true}))},3700)

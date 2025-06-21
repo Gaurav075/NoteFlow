@@ -30,7 +30,7 @@ function Login() {
     setIsLoading(true)
     
     try {
-      const UserData = await axios.post("https://ideal-succotash-56jp5qw76gx24jq5-3000.app.github.dev/login", { email, pass })
+      const UserData = await axios.post("https://noteflow-8hbr.onrender.com/login", { email, pass })
       setError("")
       localStorage.setItem("userData", UserData.data)
       setSuccess("Login successful! Redirecting...")

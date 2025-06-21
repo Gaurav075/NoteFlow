@@ -49,7 +49,7 @@ function Notes() {
 
     try {
       const response = await axios.post(
-        "https://ideal-succotash-56jp5qw76gx24jq5-3000.app.github.dev/addNote",
+        "https://noteflow-8hbr.onrender.com/addNote",
         { title, description, startdate, endDate },
         {
           headers: {

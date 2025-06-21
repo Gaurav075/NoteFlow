@@ -272,7 +272,7 @@ function PersonalNotes({ refreshNote, setRefreshNote }) {
       console.log("Toggling done status for note ID:", id);
       
       // Make API request
-      const response = await axios.put(`https://ideal-succotash-56jp5qw76gx24jq5-3000.app.github.dev/doneNote/${id}`, {}, {
+      const response = await axios.put(`https://noteflow-8hbr.onrender.com/doneNote/${id}`, {}, {
         headers: { Authorization: `Bearer ${token}` }
       });
       
@@ -406,7 +406,7 @@ function PersonalNotes({ refreshNote, setRefreshNote }) {
   const HandleUpdate = async (e) => {
     e.preventDefault()
     try {
-      await axios.put(`https://ideal-succotash-56jp5qw76gx24jq5-3000.app.github.dev/UpdateNote/${modalUpdate.id}`, {
+      await axios.put(`https://noteflow-8hbr.onrender.com/UpdateNote/${modalUpdate.id}`, {
         title: data.title !== null ? data.title : oldData.title,
         description: data.description !== null ? data.description : oldData.description,
         startDate: data.startDate !== null ? data.startDate : oldData.startDate,
@@ -461,7 +461,7 @@ function PersonalNotes({ refreshNote, setRefreshNote }) {
 
   const removeItem = async (id) => {
     try {
-      await axios.delete(`https://ideal-succotash-56jp5qw76gx24jq5-3000.app.github.dev/deleteItem/${id}`, {
+      await axios.delete(`https://noteflow-8hbr.onrender.com/deleteItem/${id}`, {
         headers: {
           Authorization: `Bearer ${token}`
         }
@@ -502,7 +502,7 @@ function PersonalNotes({ refreshNote, setRefreshNote }) {
   useEffect(() => {
     const fetchNote = async () => {
       try {
-        const res = await axios.get("https://ideal-succotash-56jp5qw76gx24jq5-3000.app.github.dev/getNotes", {
+        const res = await axios.get("https://noteflow-8hbr.onrender.com/getNotes", {
           headers: {
             Authorization: `Bearer ${token}`
           }

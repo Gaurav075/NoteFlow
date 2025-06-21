@@ -90,7 +90,7 @@ function ChangePassword() {
 
     try {
 
-        const changePassword = await axios.post("https://ideal-succotash-56jp5qw76gx24jq5-3000.app.github.dev/changePassword",{email:email,newPassword:passwords.newPassword})
+        const changePassword = await axios.post("https://noteflow-8hbr.onrender.com/changePassword",{email:email,newPassword:passwords.newPassword})
 
          setIsLoading(true);
     

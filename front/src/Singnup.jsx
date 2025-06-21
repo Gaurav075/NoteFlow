@@ -70,7 +70,7 @@ function Singnup() {
     setIsLoading(true)
 
     try {
-      const loadData = await axios.post("https://ideal-succotash-56jp5qw76gx24jq5-3000.app.github.dev/signup", { fname, lname, username, email, password, repass })
+      const loadData = await axios.post("https://noteflow-8hbr.onrender.com/signup", { fname, lname, username, email, password, repass })
       setError("")
       console.log("data Loaded Successfuly");
       setSuccess("Account Created Successfuly...")
