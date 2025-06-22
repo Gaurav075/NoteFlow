@@ -120,7 +120,7 @@ function NavBar() {
                 <div className="absolute -inset-1 bg-gradient-to-r rounded-lg blur opacity-0 group-hover:opacity-20 transition duration-1000 group-hover:duration-200"></div>
                 <div className="relative flex items-center gap-3 transform transition-all duration-300 group-hover:scale-105">
 
-                    <img src={logo} className='h-5' alt="" />
+                    <img src={logo} className='h-7' alt="" />
                    
                     <div className="hidden sm:block">
                         <h3 className="text-white text-sm font-bold mt-2">

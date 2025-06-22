@@ -28,7 +28,7 @@ function Footer() {
               <div className="flex items-center gap-3">
                 <div className="relative  h-14 flex items-center justify-center">
                   
-                  <img src={logo} alt="Notes Manager Logo" className="h-6" />
+                  <img src={logo} alt="Notes Manager Logo" className="h-8" />
                 </div>
                 <div>
                   

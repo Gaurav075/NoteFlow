@@ -124,7 +124,7 @@ function Welcome() {
                                         <rect x="10" y="30" width="30" height="4" rx="1" fill="#475569" />
                                         <rect x="10" y="38" width="20" height="4" rx="1" fill="#475569" />
                                     </svg>
-                                    <img src={logo} className='h-4' alt="" />
+                                    <img src={logo} className='h-9' alt="" />
                                 </div>
                                 
                                 {/* Main headline - more compact */}
