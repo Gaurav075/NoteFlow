@@ -14,7 +14,7 @@ It enables users to create, edit, delete, and schedule notes with priority taggi
 ## 📸 Preview
 
 <!-- Add your project screenshot or GIF below -->
-![QuickJot Screenshot](./front/src/assets/preview1.png) <!-- Replace with actual image path -->
+![QuickJot Screenshot](./front/src/assets/preview1.PNG) <!-- Replace with actual image path -->
 
 ---
 
