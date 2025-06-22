@@ -131,7 +131,7 @@ function ResetPassword() {
               <rect x="10" y="30" width="30" height="4" rx="1" fill="#475569" />
               <rect x="10" y="38" width="20" height="4" rx="1" fill="#475569" />
             </svg>
-            <img src={logo} alt="NoteApp Logo" className="h-6" />
+            <img src={logo} alt="NoteApp Logo" className="h-9" />
           </div>
         </div>
         
